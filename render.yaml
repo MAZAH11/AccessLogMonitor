@@ -1,0 +1,18 @@
+services:
+  - type: static_site
+    name: my-app-frontend
+    repo: https://github.com/your-org/your-repo
+    branch: main
+    rootDir: client
+    buildCommand: "yarn install && yarn build"
+    publishPath: build
+    plan: free
+
+  - type: web_service
+    name: my-app-backend
+    repo: https://github.com/your-org/your-repo
+    branch: main
+    rootDir: server
+    buildCommand: "dotnet publish -c Release -o out"
+    startCommand: "dotnet out/YourApi.dll"
+    plan: free
