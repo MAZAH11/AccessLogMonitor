@@ -3,7 +3,7 @@ services:
     name: my-app-frontend
     repo: https://github.com/MAZAH11/LogMonitor
     branch: main
-    rootDir: "."
+    rootDir: "access-log-ui"
     buildCommand: "yarn install && yarn build"
     publishPath: build
     plan: free
@@ -14,5 +14,5 @@ services:
     branch: main
     rootDir: "."
     buildCommand: "dotnet publish -c Release -o out"
-    startCommand: "dotnet out/YourApi.dll"
+    startCommand: "dotnet out/AccessLogMonitor.dll"
     plan: free
