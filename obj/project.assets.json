@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/MuaazA/AccessLogMonitor/AccessLogMonitor.csproj",
+      "projectUniqueName": "/Users/MuaazA/Desktop/AccessLogMonitor copy/AccessLogMonitor.csproj",
       "projectName": "AccessLogMonitor",
-      "projectPath": "/Users/MuaazA/AccessLogMonitor/AccessLogMonitor.csproj",
+      "projectPath": "/Users/MuaazA/Desktop/AccessLogMonitor copy/AccessLogMonitor.csproj",
       "packagesPath": "/Users/MuaazA/.nuget/packages/",
-      "outputPath": "/Users/MuaazA/AccessLogMonitor/obj/",
+      "outputPath": "/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/MuaazA/.nuget/NuGet/NuGet.Config"

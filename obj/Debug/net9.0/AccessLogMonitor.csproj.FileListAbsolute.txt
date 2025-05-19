@@ -24,3 +24,31 @@
 /Users/MuaazA/AccessLogMonitor/bin/Debug/net9.0/access-log-ui/package-lock.json
 /Users/MuaazA/AccessLogMonitor/bin/Debug/net9.0/access-log-ui/package.json
 /Users/MuaazA/AccessLogMonitor/bin/Debug/net9.0/access-log-ui/public/manifest.json
+/Users/MuaazA/AccessLogMonitor/obj/Debug/net9.0/AccessLogMonitor.sourcelink.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/access-log-ui/package-lock.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/access-log-ui/package.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/access-log-ui/public/manifest.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/appsettings.Development.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/appsettings.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/AccessLogMonitor.staticwebassets.endpoints.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/AccessLogMonitor
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/AccessLogMonitor.deps.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/AccessLogMonitor.runtimeconfig.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/AccessLogMonitor.dll
+/Users/MuaazA/Desktop/AccessLogMonitor copy/bin/Debug/net9.0/AccessLogMonitor.pdb
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/AccessLogMonitor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/AccessLogMonitor.AssemblyInfoInputs.cache
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/AccessLogMonitor.AssemblyInfo.cs
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/AccessLogMonitor.csproj.CoreCompileInputs.cache
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/AccessLogMonitor.MvcApplicationPartsAssemblyInfo.cache
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/AccessLogMonitor.sourcelink.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/scopedcss/bundle/AccessLogMonitor.styles.css
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/staticwebassets.build.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/staticwebassets.development.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/AccessLogMonitor.dll
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/refint/AccessLogMonitor.dll
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/AccessLogMonitor.pdb
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/AccessLogMonitor.genruntimeconfig.cache
+/Users/MuaazA/Desktop/AccessLogMonitor copy/obj/Debug/net9.0/ref/AccessLogMonitor.dll

@@ -6,3 +6,4 @@ Built using React and C#
 Learning project for C#
 
 To run project enter "dotnet run" in the AccessLogMonitor folder terminal and then "npm start" in access-log-ui's terminal. 
+# AccessLogMonitor
