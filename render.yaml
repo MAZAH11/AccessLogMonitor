@@ -1,22 +1,22 @@
 services:
-  # 1) Your React static site (free tier supported)
+  # 1) React front-end as a Static Site (free CDN)
   - type: web
     runtime: static
     name: my-app-frontend
     repo: https://github.com/MAZAH11/LogMonitor
     branch: main
-    rootDir: AccessLogMonitor/access-log-ui
+    rootDir: access-log-ui
     buildCommand: yarn install && yarn build
     staticPublishPath: build
-    plan: starter
+    plan: free
 
-  # 2) Your C# backend (requires a paid plan)
+  # 2) C# back-end as a .NET Web Service (requires paid tier)
   - type: web
-    runtime: docker
+    runtime: dotnet
     name: my-app-backend
     repo: https://github.com/MAZAH11/LogMonitor
     branch: main
-    rootDir: AccessLogMonitor
+    rootDir: .
     buildCommand: dotnet publish -c Release -o out
-    dockerCommand: dotnet out/AccessLogMonitor.dll
+    startCommand: dotnet out/AccessLogMonitor.dll
     plan: starter
