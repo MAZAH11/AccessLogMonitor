@@ -8,7 +8,7 @@ services:
     rootDir: AccessLogMonitor/access-log-ui
     buildCommand: yarn install && yarn build
     staticPublishPath: build
-    plan: free
+    plan: starter
 
   # 2) Your C# backend (requires a paid plan)
   - type: web
