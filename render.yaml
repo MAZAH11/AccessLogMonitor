@@ -3,7 +3,7 @@ services:
     name: my-app-frontend
     repo: https://github.com/MAZAH11/LogMonitor
     branch: main
-    rootDir: client
+    rootDir: "."
     buildCommand: "yarn install && yarn build"
     publishPath: build
     plan: free
@@ -12,7 +12,7 @@ services:
     name: my-app-backend
     repo: https://github.com/MAZAH11/LogMonitor
     branch: main
-    rootDir: server
+    rootDir: "."
     buildCommand: "dotnet publish -c Release -o out"
     startCommand: "dotnet out/YourApi.dll"
     plan: free
