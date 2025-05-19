@@ -1,22 +1,22 @@
 services:
-  # 1) Your React static site
-  - type: web                  # static sites use `type: web`
-    runtime: static            # and `runtime: static` :contentReference[oaicite:0]{index=0}
+  # 1) Your React static site (free tier supported)
+  - type: web
+    runtime: static
     name: my-app-frontend
     repo: https://github.com/MAZAH11/LogMonitor
     branch: main
     rootDir: AccessLogMonitor/access-log-ui
     buildCommand: yarn install && yarn build
-    staticPublishPath: build   # note: use `staticPublishPath` instead of `publishPath`
+    staticPublishPath: build
     plan: free
 
-  # 2) Your C# backend (containerized)
-  - type: web                  # backend is also a web service
-    runtime: docker            # .NET apps must be deployed via Docker :contentReference[oaicite:1]{index=1}
+  # 2) Your C# backend (requires a paid plan)
+  - type: web
+    runtime: docker
     name: my-app-backend
     repo: https://github.com/MAZAH11/LogMonitor
     branch: main
     rootDir: AccessLogMonitor
     buildCommand: dotnet publish -c Release -o out
     dockerCommand: dotnet out/AccessLogMonitor.dll
-    plan: free
+    plan: starter
