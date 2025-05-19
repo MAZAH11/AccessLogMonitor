@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AccessLogMonitor/1.0.0": {
+        "runtime": {
+          "AccessLogMonitor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AccessLogMonitor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
