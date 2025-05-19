@@ -1,4 +1,5 @@
 LogMonitor App that validates people entering a room depending on the room: 3rd Floor, Employee Lounge, Lobby, and by their status: Admin, Employee, Guest. 
+Exports Logs to a textfile
 
 Built using React and C# 
 
