@@ -3,16 +3,16 @@ services:
     name: my-app-frontend
     repo: https://github.com/MAZAH11/LogMonitor
     branch: main
-    rootDir: access-log-ui       # ← must match the folder where package.json lives
+    rootDir: "AccessLogMonitor/access-log-ui"
     buildCommand: "yarn install && yarn build"
-    publishPath: build
+    publishPath: "build"
     plan: free
 
   - type: web_service
     name: my-app-backend
     repo: https://github.com/MAZAH11/LogMonitor
     branch: main
-    rootDir: .                   # your .csproj is at the repo root
+    rootDir: "AccessLogMonitor"
     buildCommand: "dotnet publish -c Release -o out"
     startCommand: "dotnet out/AccessLogMonitor.dll"
     plan: free
