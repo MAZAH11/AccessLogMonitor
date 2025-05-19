@@ -1,7 +1,7 @@
 services:
   - type: static_site
     name: my-app-frontend
-    repo: https://github.com/your-org/your-repo
+    repo: https://github.com/MAZAH11/LogMonitor
     branch: main
     rootDir: client
     buildCommand: "yarn install && yarn build"
@@ -10,7 +10,7 @@ services:
 
   - type: web_service
     name: my-app-backend
-    repo: https://github.com/your-org/your-repo
+    repo: https://github.com/MAZAH11/LogMonitor
     branch: main
     rootDir: server
     buildCommand: "dotnet publish -c Release -o out"
