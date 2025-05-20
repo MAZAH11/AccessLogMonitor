@@ -1,0 +1,97 @@
+/* Global resets & base font */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Container */
+.app-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Title */
+.app-container h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+/* Form */
+.form-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.form-row input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.form-row button {
+  padding: 0 1rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.form-row button:hover {
+  background: #0056b3;
+}
+
+/* Status & error */
+.status {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.status.granted { color: #28a745; }
+.status.denied  { color: #dc3545; }
+
+/* Logs table */
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+.logs-table th,
+.logs-table td {
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0;
+}
+.logs-table th {
+  background: #f2f2f2;
+  text-align: left;
+}
+.logs-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* Export button */
+.export-btn {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.5rem 1rem;
+  background: #17a2b8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.export-btn:hover {
+  background: #117a8b;
+}
